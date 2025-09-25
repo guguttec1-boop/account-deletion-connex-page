@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConneX Socxer - Account Deletion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a73e8, #0f9d58);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.97);
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      max-width: 650px;
+      width: 100%;
+      padding: 40px 30px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #0d47a1; /* Deep professional blue */
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 17px;
+      color: #333; /* Darker text for readability */
+      line-height: 1.7;
+      margin-bottom: 18px;
+      font-weight: 400;
+    }
+
+    ol {
+      text-align: left;
+      margin: 18px 0 25px 30px;
+      color: #444;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    a {
+      color: #1565c0; /* Refined blue */
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0f9d58;
+      text-decoration: underline;
+    }
+
+    p a {
+      font-size: 15px;
+      color: #1a73e8;
+      font-weight: 500;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1a73e8;
+      color: #fff;
+      font-size: 16px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 15px;
+      transition: 0.3s;
+      box-shadow: 0 4px 12px rgba(26,115,232,0.3);
+    }
+
+    .btn:hover {
+      background: #0f9d58;
+      box-shadow: 0 6px 18px rgba(15,157,88,0.3);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+      padding-top: 15px;
+      border-top: 1px solid #e0e0e0;
+      letter-spacing: 0.3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.postimg.cc/VSdV8PR9/conex-logo.png" alt="Logo of ConneX Socxer" class="logo">
+
+    <h1>ConneX Socxer – Account Deletion</h1>
+
+    <p>At ConneX Socxer, we value your privacy and give you complete control over your account. If you choose to delete your account, please follow these steps:</p>
+
+    <ol>
+      <li>Open the <strong>ConneX Socxer</strong> app.</li>
+      <li>Navigate to your <strong>Profile</strong> section.</li>
+      <li>Scroll to the bottom and select <strong>Delete Account</strong>.</li>
+      <li>Confirm by following the on-screen instructions.</li>
+    </ol>
+
+    <p>Once your account is deleted, all personal information (including your name, age, and description) will be permanently removed.  
+    Please note that certain data collected by third-party services may still be retained, as explained in our  
+    <a href="https://www.e-droid.net/privacy.php?ida=3515662&idl=en" target="_blank">Privacy Policy</a>.</p>
+
+    <p>If you need help or have any questions, our support team is here for you:</p>
+    <p>
+      📧 <a href="mailto:guguttec1@gmail.com">guguttec1@gmail.com</a><br>
+      📧 <a href="mailto:conexsoccer@gmail.com">conexsoccer@gmail.com</a>
+    </p>
+
+    <a href="mailto:conexsoccer@gmail.com" class="btn">Contact Support</a>
+
+    <footer>
+      © 2025 ConneX Socxer. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
